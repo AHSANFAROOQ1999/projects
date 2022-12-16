@@ -1,0 +1,117 @@
+// Color Pallete 🖌
+
+@import "../../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.login_page {
+  padding: 50px 20px;
+  .ui.fluid.input {
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  & form {
+    max-width: 490px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+    * {
+      font-weight: 300;
+      margin: 5px 0px;
+    }
+
+    .field {
+      margin-bottom: 25px !important;
+    }
+
+    .error.required.field {
+      padding-left: 0;
+    }
+
+    input {
+      background-color: $input_bacground_color;
+      border: 1px solid $primary-border-color;
+      padding: 13px;
+      letter-spacing: 0.5px;
+      height: 50px;
+      font-size: 14px;
+
+      &::placeholder {
+        color: #6f6f6f;
+        font-size: 12px;
+      }
+      color: #6f6f6f;
+    }
+    .forgot_pass {
+      font-size: 11px;
+      color: #3a3a3a;
+      text-decoration: underline;
+      background: none;
+      padding: 0;
+      border: none;
+      margin-bottom: 25px;
+
+      width: fit-content;
+      &:hover {
+        background: none;
+      }
+    }
+    .return_to_store {
+      text-decoration: none;
+      text-align: center;
+      color: #3a3a3a;
+      font-size: 12px;
+    }
+    button {
+      // padding: 15px;
+      border-radius: 3px;
+      letter-spacing: 1px;
+    }
+
+    .primary_button {
+      // padding: 15px 20px;
+      font-size: 14px;
+      color: $primary-white;
+      background-color: $primary-color;
+      border: none;
+      text-transform: uppercase;
+      width: 100%;
+      height: 40px;
+
+      span {
+        margin: 0;
+      }
+    }
+    .primary_button:hover {
+      background-color: $primary-color;
+      color: $primary-white;
+    }
+
+    .secondary_button {
+      // padding: 15px 20px;
+      font-size: 14px;
+      color: $primary-color;
+      background-color: $primary-white;
+      border: 1px solid $primary-black;
+      text-transform: uppercase;
+      width: 100%;
+      height: 40px;
+
+      span {
+        margin: 0;
+      }
+    }
+  }
+  .invalid {
+    border: 1px solid $primary-red;
+  }
+  .flex {
+    display: flex;
+  }
+}

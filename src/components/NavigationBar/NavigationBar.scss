@@ -1,0 +1,121 @@
+// Color Pallete 🖌
+
+@import "../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.nav {
+  background-color: #203348;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  justify-content: space-between;
+
+  .left {
+    display: flex;
+  }
+}
+
+ul {
+  margin: 0px;
+}
+
+.nav a {
+  color: $primary-white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cat {
+  // width: 290px;
+  // display: flex;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cat a {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0 8px;
+  text-transform: uppercase;
+}
+.cat a:hover {
+  background-color: #058593;
+}
+
+.cat svg {
+  color: $primary-white;
+}
+.cat .anticon-unordered-list {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 2px 15px 0px 0px;
+}
+.cat .anticon-down {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 20px 0px 25px;
+}
+
+.k-divider {
+  width: 2px;
+  height: 20px;
+  border-right: 2px solid $border-color;
+}
+.menu-link {
+  display: flex;
+}
+.menu-link ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu-link ul li a {
+  padding: 5px 20px;
+
+  font-size: 11px;
+}
+.menu-link ul li :hover {
+  background-color: #058593;
+}
+
+.menu-link ul li a {
+  padding: 5px 12px;
+}
+
+.trackOrder {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+.trackOrder a {
+  padding: 5px 5px;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 11px;
+  color: $primary-white;
+}
+.trackOrder svg {
+  color: $primary-white;
+}
+
+////////////////////// Responsive Section 🖥
+
+@media (max-width: 1024px) {
+  .nav {
+    .cat {
+      padding-left: 30px;
+    }
+    .anticon-down {
+      padding: 2px 10px 0px 10px;
+    }
+
+    .menu-link ul li a {
+      padding: 5px 7px;
+    }
+  }
+}

@@ -1,0 +1,231 @@
+// Color Pallete 🖌
+
+@import "../../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+// Mobile View
+// .mob-nav {
+//   position: relative;
+// }
+.mobileNav {
+  background-color: $primary-white;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  overflow-x: hidden;
+  .display-flex {
+    // display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0px 2px;
+    // align-items: center;
+
+    .logoDiv img {
+      width: 160px;
+      // position: absolute;
+      // top: 42px;
+      // width: 50%;
+    }
+    .rightDiv {
+      // position: absolute;
+      // right: 20px;
+      // top: 48px;
+    }
+    .rightDiv svg {
+      font-size: 20px;
+      margin: 0px 5px;
+    }
+
+    .ant-badge-count {
+      background-color: $primary-color;
+      color: $primary-white;
+      transform: translate(52%, -80%);
+    }
+  }
+}
+.mobile-top svg {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.mobile-cat {
+  padding: 5px;
+  margin: 60px 20px 20px 20px;
+  background-color: #058593;
+  color: $primary-white;
+
+  svg {
+    margin: 0px 10px;
+  }
+  span {
+    font-size: 12px;
+  }
+}
+.mobile-menu {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  background-color: $primary-white;
+  /*scroll-behavior: smooth !important;*/
+  overflow: scroll;
+}
+@media screen and (min-width: 760px) and (max-width: 770px) {
+  .mobile-menu {
+    width: 40%;
+  }
+}
+/*
+.mobile-megamenu {
+  height: 680px;
+}*/
+.mobile-megamenu-top {
+  padding: 20px;
+}
+.mobile-megamenu-top svg {
+  font-size: 18px;
+}
+.mobile-megamenu-top .cat-header {
+  padding: 0px 20px;
+}
+
+.mobile-menu ul {
+  margin: 0px 0px 0px 20px;
+  list-style-type: none;
+}
+.mobile-menu ul li {
+  /*padding: 14px 0px;*/
+  padding: 8px 0px;
+  border-bottom: 1px solid #dadada;
+  width: 90%;
+}
+.mobile-menu ul li a {
+  padding: 20px 0px;
+  font-size: 14px;
+}
+
+.mobile-menu ul svg {
+  /*border-left: 1px solid #dadada;*/
+  font-size: 16px;
+}
+.mobile-menu .mobile-megamenu-RightDivider {
+  width: 2px;
+  height: 25px;
+  position: absolute;
+  right: 40px;
+  padding-left: 16px;
+  border-left: 1px solid #dadada;
+}
+.mobile-menu .ant-select {
+  width: 100px;
+}
+.mobile-searchbar {
+  display: flex;
+  padding: 16px 8px;
+  @media screen and (min-width: 760px) and (max-width: 770px) {
+    padding: 23px 22px;
+  }
+  .ant-select-auto-complete {
+    flex-grow: 1 !important;
+  }
+  .ant-btn {
+    background-color: $primary-color;
+  }
+}
+.mobile-menu
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  width: 100px;
+}
+.mobile-searchbar-bg {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+}
+
+.mobile-searchBar .ant-input {
+  height: 50px;
+  /* border: 1px solid #d9d9d9;*/
+}
+
+.mobile-searchBar
+  .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button:not(.ant-btn-primary) {
+  background-color: #203348 !important;
+  position: absolute;
+  right: 5px;
+
+  top: 5px;
+}
+.mobile-searchBar .ant-btn {
+  height: 40px;
+  width: 40px;
+  z-index: 9999;
+}
+
+.mobile-searchBar .ant-input-group-addon svg {
+  color: $primary-white;
+}
+.mobile-searchBar .ant-input-group-wrapper {
+  position: absolute;
+  top: 32px;
+  padding: 6px;
+}
+
+.mobile-searchBar .ant-input-search .ant-input:hover,
+.ant-input-search .ant-input:focus {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
+}
+.mobile-menu-lower {
+  display: flex;
+  flex-direction: column;
+  z-index: 10000;
+  margin: 20px;
+}
+
+.mobile-menu-lower .ant-select-selector {
+  margin: 10px 0px;
+}
+
+.mobile-menu-lower div svg {
+  margin: 0px 10px;
+}
+
+.mobile-megamenu-lower {
+  display: flex;
+  flex-direction: column;
+  z-index: 10000;
+  position: absolute;
+  top: 620px;
+  left: 90px;
+}
+.mobile-megamenu-lower .ant-select-selector {
+  margin: 10px 0px;
+}
+
+.mobile-megamenu-lower div svg {
+  margin: 0px 10px;
+}
+
+.mobile-megamenu-lower
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  width: 100px;
+  /* border: none;*/
+}
+.ant-select-focused .ant-select-selector,
+.ant-select-selector:focus,
+.ant-select-selector:active,
+.ant-select-open .ant-select-selector {
+  /* border-color: #d9d9d9 !important;*/
+  box-shadow: none !important;
+}

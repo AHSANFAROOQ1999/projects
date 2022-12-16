@@ -1,0 +1,194 @@
+// Color Pallete 🖌
+
+@import "../../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.wallet-main-container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0px !important;
+
+  .points {
+    width: 525px;
+    height: 51px;
+    padding-left: 15px;
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    width: 525px;
+    height: 48px;
+    border-radius: 3px;
+    border: none;
+    background-color: $primary-color;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+
+  .div-styling {
+    padding-top: 16px;
+  }
+
+  .balance {
+    border-bottom: 1px solid #e4e4e4;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: $primary-color;
+  }
+
+  .details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 24px;
+    color: #555555;
+  }
+
+  .redeem {
+    width: 104px;
+    height: 33px;
+    background-color: white;
+    color: $primary-color;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    border: 1px solid #838383;
+    border-radius: 3px;
+  }
+  .redeem-sucessful {
+    width: 104px;
+    height: 33px;
+    background-color: $primary-color;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    border: 1px solid #838383;
+    border-radius: 3px;
+  }
+
+  .redeem.expired {
+    color: red;
+  }
+
+  .redeem-input {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .coupans {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .history {
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .coupan-code {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    color: #3d6670;
+  }
+
+  .arrow-div {
+    background: #f1f3f6;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 7px;
+  }
+
+  .time {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: right;
+    color: #94afb6;
+    margin-bottom: 4px;
+  }
+
+  .credit_amount {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #41be06;
+  }
+
+  .debit_amount {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #cf0c0c;
+  }
+
+  .credit-arrow {
+    margin: 0;
+    color: #41be06;
+  }
+
+  .debit-arrow {
+    margin: 0;
+    color: #cf0c0c;
+  }
+
+  .ui.bottom.attached.segment.active.tab {
+    border: none;
+  }
+
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px !important;
+  }
+
+  .tab-title {
+    color: $primary-color;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .err-message {
+    width: 525px;
+    height: auto;
+    text-align: -webkit-center;
+  }
+
+  .err-message div {
+    padding: 0 !important;
+  }
+
+  .active {
+    margin-bottom: 10px !important;
+  }
+}

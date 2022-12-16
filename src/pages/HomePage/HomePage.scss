@@ -1,0 +1,17 @@
+// Color Pallete 🖌
+
+@import "../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.page-height {
+  min-height: 700px;
+}
+
+.homepage-slider {
+  min-height: 270px;
+
+  .slider-image {
+    width: 100%;
+  }
+}

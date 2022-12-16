@@ -1,0 +1,23 @@
+// Color Pallete 🖌
+
+@import "../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.search-page {
+  min-height: 450px;
+  .notfound-main-div {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    width: max-content;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .pagenotfoound-count {
+    font-size: 18px;
+  }
+}

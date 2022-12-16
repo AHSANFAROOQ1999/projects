@@ -1,0 +1,29 @@
+#ios-pwa-popup {
+  position: fixed;
+  bottom: -50px;
+  width: 85%;
+  max-width: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px #00000024, 0 1px 8px #0000001f;
+  z-index: 9;
+
+  &.show {
+    bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+
+  .share-icon {
+    height: 26px;
+    vertical-align: middle;
+  }
+}

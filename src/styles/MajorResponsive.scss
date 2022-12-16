@@ -1,0 +1,98 @@
+// Color Pallete 🖌
+
+@import "./ColorScheme.scss";
+
+///////////////////////////////////////////
+
+// For Container MD
+
+.container-md {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+// For Container XL
+
+.container-xl {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+// Responsiveness For Container XL //
+
+@media (min-width: 1024px) {
+  .container-xl {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .k-row1 {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .container-xl {
+    max-width: 1280px;
+  }
+}
+
+// @media (min-width: 1320px) {
+//   .container-xl {
+//     max-width: 1300px;
+//   }
+// }
+// @media (min-width: 1320px) {
+//   .container-xl {
+//     max-width: 1325px;
+//   }
+// }
+
+@media (min-width: 1400px) {
+  .container-xl {
+    max-width: 1340px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container-xl {
+    max-width: 1500px;
+  }
+}
+
+// Responsiveness End For Container XL  //
+
+// For K-Row
+
+div.k-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.k-row2 {
+  direction: ltr;
+}
+
+.k-row1 {
+  direction: ltr;
+  margin-left: 65px;
+}
+
+// Responsiveness For K-Row //
+
+@media (min-width: 1024px) {
+  .k-row1 {
+    margin-left: 0px;
+  }
+}
+
+// Responsiveness End For K-Row  //

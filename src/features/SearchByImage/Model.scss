@@ -1,0 +1,338 @@
+// Color Pallete 🖌
+
+@import "../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999999999;
+}
+
+.initial_modal {
+  position: fixed;
+  overflow: auto;
+  background: white;
+  width: 60%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.final_modal {
+  overflow: auto;
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.close {
+  cursor: pointer;
+  float: left;
+  margin-left: 18px;
+  background: transparent;
+  font-size: 33px;
+  border-style: none;
+}
+.close1 {
+  background: transparent;
+  margin-top: 96px;
+  float: right;
+  cursor: pointer;
+  margin-right: 12px;
+  font-size: 33px;
+  border-style: none;
+}
+
+.upload {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 22px;
+}
+
+.SBI_tags {
+  width: 230px;
+  margin-right: 12px;
+}
+
+.main {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+.bounding-box {
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.tag-list-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.toggle {
+  z-index: 100;
+  border: none;
+  background: #000000a1;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  padding: 5px 10px;
+  padding-top: 3px;
+}
+
+.mystyle {
+  display: none;
+}
+.mystyle1 {
+  display: block;
+}
+
+.btn-style {
+  display: none;
+}
+.btn-style1 {
+  border: none;
+  background: #000000a1;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  padding: 5px 10px;
+  padding-top: 3px;
+  display: block;
+  z-index: 9999;
+}
+.tags-style {
+  display: none;
+}
+.tags_style1 {
+  display: block;
+  margin-left: 57px;
+}
+
+.tags {
+  height: auto;
+}
+.custom-file-input {
+  color: transparent;
+  position: absolute;
+  padding-left: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Select A Photo";
+  color: white;
+  display: inline-block;
+  background-color: #2c4699;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 9px 24px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.custom-file-input:hover::before {
+  border-color: none;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.search-by-image-icon {
+  cursor: pointer;
+  width: 34px;
+}
+#open {
+  background: transparent;
+  border-style: none;
+}
+
+.main-modal {
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-img {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.search-img-div {
+  position: relative;
+}
+.my-img {
+  position: relative;
+  width: 70%;
+  height: auto;
+}
+
+.container {
+  top: 10px;
+}
+
+/* antd style */
+
+.ant-collapse {
+  width: 100%;
+  // border: none !important;
+}
+
+.ant-checkbox-wrapper {
+  gap: 10px;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 10px;
+}
+
+.product-list {
+  margin-top: 21px;
+}
+
+.SBI_wrapper {
+  display: flex;
+  position: relative;
+  margin: 50px 26px 0px;
+}
+
+.head {
+  padding: 31px;
+  height: 100px;
+  text-align: center;
+  background-color: #e3e3e3;
+}
+
+.para {
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 5px 0px 0px 0px;
+}
+
+.pro_price {
+  text-align: center;
+}
+
+.SBI_pro_img {
+  border: 1px solid lightgray;
+  width: 100%;
+  height: auto;
+}
+.SBI_product-card {
+  width: 220px;
+  margin: 10px;
+}
+.para1 {
+  padding-bottom: 22px;
+}
+.SBI_original_price {
+  text-decoration: line-through;
+  padding: 14px;
+  opacity: 0.8;
+}
+.SBI_compare-price {
+  color: red;
+}
+.cross-img {
+  width: 30px;
+  height: 30px;
+}
+.SBI_tags_image {
+  display: flex;
+}
+.SBI_products-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .initial_modal {
+    height: 50%;
+    width: 96%;
+  }
+  .initial_modal form {
+    margin: 100px 0px 10px 0px;
+  }
+  .initial_modal .SBI_wrapper {
+    display: none;
+  }
+  // .ant-collapse {
+  //   width: 140%;
+  // }
+  .search-img {
+    width: 100%;
+    position: relative;
+    top: 20%;
+  }
+  .SBI_wrapper {
+    flex-direction: column;
+  }
+  .SBI_tags {
+    order: 2;
+  }
+  .SBI_tags_image {
+    flex-direction: column;
+  }
+  .search-img {
+    margin: 50px 0px;
+
+    order: 1;
+  }
+
+  .SBI_products-list {
+    margin: 50px 0px;
+    width: 100%;
+  }
+  .SBI_product-card {
+    width: 50%;
+    margin: 0px;
+    padding: 10px 5px;
+  }
+
+  .para {
+    font-size: 12px;
+  }
+  .pro_price {
+    font-size: 12px;
+  }
+  .final_modal {
+    width: 100%;
+  }
+}

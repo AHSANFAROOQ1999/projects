@@ -1,0 +1,74 @@
+// Color Pallete 🖌
+
+@import "../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.mega-menu {
+  z-index: 999;
+  width: 100%;
+  min-height: 500px;
+  background-color: $primary-white;
+  padding: 20px 40px 20px 60px;
+  display: flex;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+
+    align-items: center;
+  }
+
+  li a {
+    color: #4183c4;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  li:hover {
+    color: #203348;
+  }
+
+  .cats {
+    width: 24%;
+  }
+
+  .anticon {
+    font-size: 11px;
+    opacity: 0.5;
+  }
+
+  .subCats {
+    width: 24%;
+  }
+
+  .superSubCats {
+    width: 24%;
+  }
+
+  .vertical-line {
+    border-right: 1px solid rgb(216, 212, 212);
+    height: 420px;
+  }
+
+  .catImg {
+    // position: absolute;
+    // right: 8%;
+  }
+}
+
+////////////////////// Responsive Section 🖥 //////////////////////
+
+////////////////////// Screen Size 1024px 🖥
+
+@media (max-width: 1024px) {
+  .mega-menu {
+    padding: 20px 40px;
+  }
+}

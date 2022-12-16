@@ -1,0 +1,60 @@
+@import "./styles/ColorScheme.scss";
+@import "./styles/MajorResponsive.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+///////////////////////////////////////////
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  font-family: "Roboto", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  // font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  //   monospace;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  min-height: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-black;
+}
+
+a:hover {
+  color: $primary-grey;
+}
+
+p {
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(201, 195, 195);
+  // background: rgba(0,0,0,.25);
+}
+
+*::-webkit-scrollbar {
+  height: 3px;
+  width: 3px;
+}

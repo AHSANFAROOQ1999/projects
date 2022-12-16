@@ -1,0 +1,14 @@
+// Color Pallete 🖌
+
+@import "../../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+.ant-collapse-header {
+  padding: 12px 0 !important;
+
+  @media (max-width: 426px) {
+    .ant-collapse-header {
+      padding: 12px 0 !important;
+    }
+  }
+}

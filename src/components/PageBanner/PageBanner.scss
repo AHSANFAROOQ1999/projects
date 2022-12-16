@@ -1,0 +1,33 @@
+// Color Pallete 🖌
+
+@import "../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.page-banner {
+  position: relative;
+  .banner-content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $primary-white;
+    text-align: center;
+    text-transform: uppercase;
+    h1 {
+      font-size: 35px;
+      span {
+        color: $primary-color;
+      }
+    }
+    p {
+      padding: 5px;
+      background-color: $primary-black;
+      font-size: 20px;
+    }
+  }
+  img {
+    width: 100%;
+    // min-height: 300px;
+  }
+}

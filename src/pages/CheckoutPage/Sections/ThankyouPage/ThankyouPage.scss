@@ -1,0 +1,78 @@
+// Color Pallete 🖌
+
+@import "../../../../styles/ColorScheme.scss";
+
+///////////////////////////////////////////
+
+.checkout-wrapper {
+  display: flex;
+  justify-content: center;
+  .logo {
+    display: flex;
+    justify-content: center;
+    img {
+      // max-width: 340px;
+      display: flex;
+      justify-content: center;
+      width: 30%;
+      margin: 0px 0px 15px 200px;
+    }
+  }
+  .thankyou-page {
+    .thankyou-logo-wrapper {
+      display: flex;
+      margin-bottom: 20px;
+      img {
+        margin-right: 20px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+      h2 {
+        margin-top: 0;
+      }
+    }
+    h5 {
+      margin-bottom: 0;
+    }
+    .order-confirm-note {
+      border: 1px solid #dedede;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .customer-info-wrapper {
+      border: 1px solid #dedede;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      .customer-info {
+        display: flex;
+        & > div {
+          flex: 0 0 50%;
+        }
+        .divi {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          p {
+            font-size: 12px;
+            margin: 5px 5px 2px;
+          }
+        }
+        .divi.detail {
+          p {
+            text-transform: capitalize;
+          }
+        }
+        h5 {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
